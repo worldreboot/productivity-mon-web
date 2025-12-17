@@ -5,11 +5,12 @@ This directory contains the modernized Productivity Mon landing page, ready for 
 ## Deployment Instructions
 
 1.  **Direct Upload**: You can drag and drop the `website` folder into the Cloudflare Pages dashboard.
-2.  **Git Integration**: 
-    - Push your code to GitHub/GitLab.
-    - Connect your repository to Cloudflare Pages.
-    - Set the **Build output directory** to `website`.
-    - Set the **Build command** to blank (as this is a static site).
+### 2. Git Integration (Recommended)
+- Push your code to GitHub.
+- Connect your repository in the Cloudflare Pages dashboard.
+- **IMPORTANT**: Set the **Build command** to be **EMPTY** (delete everything in that box).
+- Set the **Build output directory** to **`.`** (just a single period).
+- Save and deploy.
 
 ## Directory Structure
 - `index.html`: Main landing page.
