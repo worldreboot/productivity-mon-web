@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="Productivity Mon turns your workday into a game with focus tracking, XP, coins, and Fakemon rewards.">
+  <title>Productivity Mon | Level Up Your Workflow</title>
+  <link rel="icon" href="./assets/favicon.png">
+  <link rel="stylesheet" href="./styles/landing.css">
+  <script src="./js/landing.js" defer></script>
+</head>
+
+<body>
+  <div class="page">
+    <header class="topbar">
+      <div class="brand">
+        <span class="brand-mark" aria-hidden="true"></span>
+        Productivity Mon
+      </div>
+      <nav class="nav">
+        <a href="#features">Benefits</a>
+        <a href="#how">How it works</a>
+        <a href="#cta">Get the app</a>
+      </nav>
+      <div class="actions">
+        <a class="btn ghost" href="#how">See workflow</a>
+        <a class="btn primary" href="#cta">Download App</a>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div>
+          <div class="badge">New: Focus tracking + gamified rewards</div>
+          <h1>The ultimate productivity game for your workday.</h1>
+          <p>
+            Productivity Mon transforms your deep work into an RPG adventure. Track focus sessions, earn rewards, and
+            collect unique Fakemon as you ship your best work.
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="#cta">Download for Desktop</a>
+            <a class="btn ghost" href="#features">Explore Features</a>
+          </div>
+          <ul class="pill-list">
+            <li class="pill"><span class="dot" aria-hidden="true"></span>Automatic tracking for 1000+ apps & sites</li>
+            <li class="pill"><span class="dot" aria-hidden="true"></span>Real-time XP, coins, and collectibles</li>
+            <li class="pill"><span class="dot" aria-hidden="true"></span>Privacy-first logic: data stays on your machine
+            </li>
+          </ul>
+        </div>
+
+        <div class="hero-card" aria-label="Preview of Productivity Mon">
+          <div class="card-header">
+            <div class="card-title">Live focus session</div>
+            <div class="card-chip">+120 XP today</div>
+          </div>
+          <div class="preview">
+            <div class="ui-mockup">
+              <div class="ui-header">
+                <div class="ui-user">
+                  <div class="ui-avatar">PM</div>
+                  <div>
+                    <div class="ui-username">Productivity Mon</div>
+                    <div class="ui-subtitle">You</div>
+                  </div>
+                </div>
+                <div class="ui-stats">
+                  <div class="ui-pill">
+                    <span class="ui-dot ui-dot-green"></span>
+                    <span>245</span>
+                    <span class="ui-pill-label">XP</span>
+                  </div>
+                  <div class="ui-pill">
+                    <span class="ui-dot ui-dot-yellow"></span>
+                    <span>1,250</span>
+                    <span class="ui-pill-label">Coins</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="ui-tabs">
+                <button class="ui-tab ui-tab-active">Main</button>
+                <button class="ui-tab">Fakemon</button>
+                <button class="ui-tab">Friends</button>
+                <button class="ui-tab">Shop</button>
+              </div>
+
+              <div class="ui-content">
+                <div class="ui-list">
+                  <div class="ui-list-title">Daily Productivity Leaderboard</div>
+                  <div class="ui-row">
+                    <div class="ui-avatar-small">1</div>
+                    <div class="ui-row-content">
+                      <div class="ui-name">You</div>
+                      <div class="ui-subtitle">Working on new feature</div>
+                    </div>
+                    <div class="ui-pill-small">
+                      <span>245</span>
+                      <span>XP</span>
+                    </div>
+                  </div>
+                  <div class="ui-row">
+                    <div class="ui-avatar-small">2</div>
+                    <div class="ui-row-content">
+                      <div class="ui-name">Alex</div>
+                      <div class="ui-subtitle">Fixing bugs</div>
+                    </div>
+                    <div class="ui-pill-small">
+                      <span>198</span>
+                      <span>XP</span>
+                    </div>
+                  </div>
+                  <div class="ui-row">
+                    <div class="ui-avatar-small">3</div>
+                    <div class="ui-row-content">
+                      <div class="ui-name">Sam</div>
+                      <div class="ui-subtitle">Writing docs</div>
+                    </div>
+                    <div class="ui-pill-small">
+                      <span>156</span>
+                      <span>XP</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="ui-list">
+                  <div class="ui-row">
+                    <div class="ui-name">What are you working on?</div>
+                    <div class="ui-subtitle">Updated 2m ago</div>
+                  </div>
+                  <div class="ui-row">
+                    <input type="text" class="ui-input" placeholder="e.g. Fixing auth bug, writing report…"
+                      value="Working on new feature">
+                    <button class="ui-btn-primary">Save</button>
+                  </div>
+                </div>
+
+                <div class="ui-list">
+                  <div class="ui-fakemon">
+                    <div class="ui-fakemon-sprite">
+                      <img src="./assets/icons/RHINPLINK.png" alt="Rhinplink" class="ui-fakemon-sprite-img">
+                    </div>
+                    <div class="ui-fakemon-info">
+                      <div class="ui-xpbar">
+                        <div class="ui-xpbar-fill" style="width: 65%"></div>
+                      </div>
+                      <div class="ui-xpbar-text">Lvl 3 • 54 / 83</div>
+                      <div class="ui-subtitle">Active Fakemon</div>
+                      <div class="ui-name">Rhinplink</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <h2>Built to keep you in flow</h2>
+        <p>Everything you need to stay focused, finish deep work, and still have fun doing it.</p>
+
+        <div class="starters-showcase">
+          <h3>Choose your starter</h3>
+          <p class="starters-intro">Begin your journey by selecting one of three starter Fakemon. Each has unique types
+            and evolves as you focus.</p>
+          <div class="starters-grid">
+            <div class="starter-card">
+              <div class="starter-sprite-wrap">
+                <img src="./assets/icons/RHINPLINK.png" alt="Rhinplink" class="starter-sprite-img">
+              </div>
+              <div class="starter-info">
+                <div class="starter-name">Rhinplink</div>
+                <div class="starter-types">
+                  <span class="type-badge type-electric">Electric</span>
+                </div>
+                <div class="starter-desc">A sparky companion that powers up with your coding sessions.</div>
+              </div>
+            </div>
+            <div class="starter-card">
+              <div class="starter-sprite-wrap">
+                <img src="./assets/icons/SKINDLING.png" alt="Skindling" class="starter-sprite-img">
+              </div>
+              <div class="starter-info">
+                <div class="starter-name">Skindling</div>
+                <div class="starter-types">
+                  <span class="type-badge type-fire">Fire</span>
+                </div>
+                <div class="starter-desc">Burns bright when you're in deep work mode.</div>
+              </div>
+            </div>
+            <div class="starter-card">
+              <div class="starter-sprite-wrap">
+                <img src="./assets/icons/DAMPYBARA.png" alt="Dampybara" class="starter-sprite-img">
+              </div>
+              <div class="starter-info">
+                <div class="starter-name">Dampybara</div>
+                <div class="starter-types">
+                  <span class="type-badge type-water">Water</span>
+                </div>
+                <div class="starter-desc">Flows smoothly through your productive sessions.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="collection-showcase">
+          <h3>Collect hundreds of Fakemon</h3>
+          <p class="collection-intro">Earn XP, open Monboxes, and discover new Fakemon as you work. Each one has unique
+            types, evolutions, and abilities.</p>
+          <div class="pokedex-grid">
+            <div class="pokedex-entry">
+              <img src="./assets/icons/RHINPLINK.png" alt="Rhinplink" class="pokedex-sprite-img">
+              <div class="pokedex-name">Rhinplink</div>
+              <div class="pokedex-number">#001</div>
+            </div>
+            <div class="pokedex-entry">
+              <img src="./assets/icons/SKINDLING.png" alt="Skindling" class="pokedex-sprite-img">
+              <div class="pokedex-name">Skindling</div>
+              <div class="pokedex-number">#002</div>
+            </div>
+            <div class="pokedex-entry">
+              <img src="./assets/icons/DAMPYBARA.png" alt="Dampybara" class="pokedex-sprite-img">
+              <div class="pokedex-name">Dampybara</div>
+              <div class="pokedex-number">#003</div>
+            </div>
+            <div class="pokedex-entry">
+              <img src="./assets/icons/CABAT_ICE.png" alt="Cabat" class="pokedex-sprite-img">
+              <div class="pokedex-name">Cabat</div>
+              <div class="pokedex-number">#004</div>
+            </div>
+            <div class="pokedex-entry">
+              <img src="./assets/icons/LAMBI.png" alt="Lambi" class="pokedex-sprite-img">
+              <div class="pokedex-name">Lambi</div>
+              <div class="pokedex-number">#005</div>
+            </div>
+            <div class="pokedex-entry">
+              <img src="./assets/icons/GOOBOLT.png" alt="Goobolt" class="pokedex-sprite-img">
+              <div class="pokedex-name">Goobolt</div>
+              <div class="pokedex-number">#006</div>
+            </div>
+            <div class="pokedex-entry">
+              <img src="./assets/icons/FLAREPENT.png" alt="Flarepent" class="pokedex-sprite-img">
+              <div class="pokedex-name">Flarepent</div>
+              <div class="pokedex-number">#007</div>
+            </div>
+            <div class="pokedex-entry">
+              <img src="./assets/icons/TROUTLE.png" alt="Troutle" class="pokedex-sprite-img">
+              <div class="pokedex-name">Troutle</div>
+              <div class="pokedex-number">#008</div>
+            </div>
+            <div class="pokedex-entry pokedex-entry-locked">
+              <div class="pokedex-sprite-locked"></div>
+              <div class="pokedex-name">???</div>
+              <div class="pokedex-number">#009</div>
+            </div>
+            <div class="pokedex-entry pokedex-entry-locked">
+              <div class="pokedex-sprite-locked"></div>
+              <div class="pokedex-name">???</div>
+              <div class="pokedex-number">#010</div>
+            </div>
+            <div class="pokedex-entry pokedex-entry-locked">
+              <div class="pokedex-sprite-locked"></div>
+              <div class="pokedex-name">???</div>
+              <div class="pokedex-number">#011</div>
+            </div>
+            <div class="pokedex-entry pokedex-entry-locked">
+              <div class="pokedex-sprite-locked"></div>
+              <div class="pokedex-name">???</div>
+              <div class="pokedex-number">#012</div>
+            </div>
+          </div>
+          <div class="collection-cta">
+            <p>Open Monboxes to discover new Fakemon. Each one you collect brings you closer to completing your Pokedex!
+            </p>
+          </div>
+        </div>
+
+        <div class="ui-showcase">
+          <div class="ui-showcase-item">
+            <div class="ui-list">
+              <div class="ui-list-title">Your Fakemon</div>
+              <div class="ui-row">
+                <img src="./assets/icons/RHINPLINK.png" alt="Rhinplink" class="ui-fakemon-icon-img">
+                <div class="ui-row-content">
+                  <div class="ui-name">Rhinplink</div>
+                  <div class="ui-subtitle">Lvl 3 • Electric</div>
+                </div>
+                <div class="ui-pill-small">
+                  <span>54/83</span>
+                </div>
+              </div>
+              <div class="ui-row">
+                <img src="./assets/icons/SKINDLING.png" alt="Skindling" class="ui-fakemon-icon-img">
+                <div class="ui-row-content">
+                  <div class="ui-name">Skindling</div>
+                  <div class="ui-subtitle">Lvl 2 • Fire</div>
+                </div>
+                <div class="ui-pill-small">
+                  <span>12/45</span>
+                </div>
+              </div>
+              <div class="ui-row">
+                <img src="./assets/icons/DAMPYBARA.png" alt="Dampybara" class="ui-fakemon-icon-img">
+                <div class="ui-row-content">
+                  <div class="ui-name">Dampybara</div>
+                  <div class="ui-subtitle">Lvl 1 • Water</div>
+                </div>
+                <div class="ui-pill-small">
+                  <span>8/30</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="ui-showcase-item">
+            <div class="ui-list">
+              <div class="ui-row">
+                <div class="ui-monbox-icon"></div>
+                <div class="ui-row-content">
+                  <div class="ui-name">Monbox</div>
+                  <div class="ui-subtitle">Contains a random fakemon</div>
+                </div>
+                <div class="ui-pill-small">
+                  <span>1000</span>
+                </div>
+                <button class="ui-btn-primary" style="padding: 6px 12px; font-size: 12px;">Buy</button>
+              </div>
+              <div class="ui-row">
+                <div class="ui-monbox-icon"></div>
+                <div class="ui-row-content">
+                  <div class="ui-name">Monbox</div>
+                  <div class="ui-subtitle">Open to get a random fakemon</div>
+                </div>
+                <div class="ui-pill-small">
+                  <span>2</span>
+                </div>
+                <button class="ui-btn-primary" style="padding: 6px 12px; font-size: 12px;">Open</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grid">
+          <div class="card">
+            <strong>Automatic productivity tracking</strong>
+            <small>Detects productive apps and sites, filters distractions, and translates your time into XP.</small>
+          </div>
+          <div class="card">
+            <strong>Gamified focus</strong>
+            <small>Earn XP and coins for streaks and tasks. Spend coins on Monboxes to unlock new Fakemon.</small>
+          </div>
+          <div class="card">
+            <strong>Friends & leaderboards</strong>
+            <small>See what teammates are working on and climb daily leaderboards together.</small>
+          </div>
+          <div class="card">
+            <strong>Privacy first</strong>
+            <small>Pause tracking anytime. Clear local data in one click. You stay in control.</small>
+          </div>
+          <div class="card">
+            <strong>Multi-platform ready</strong>
+            <small>Works with desktop apps and the browser extension so every minute counts.</small>
+          </div>
+          <div class="card">
+            <strong>Instant rewards</strong>
+            <small>Claim Monboxes, rename your Fakemon, and show off your collection as you focus.</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="how">
+        <h2>How it works</h2>
+        <p>Start quickly, stay on task, and let the app handle the tracking.</p>
+        <div class="steps">
+          <div class="step">
+            <div class="step-num">1</div>
+            <strong>Install & sign in</strong>
+            <small>Open the desktop app or browser extension and sign in to start earning.</small>
+          </div>
+          <div class="step">
+            <div class="step-num">2</div>
+            <strong>Track what matters</strong>
+            <small>Choose your task, let Productivity Mon watch productive apps, and pause anytime.</small>
+          </div>
+          <div class="step">
+            <div class="step-num">3</div>
+            <strong>Earn XP & coins</strong>
+            <small>Focus streaks and shipped work turn into XP and coins you can spend.</small>
+          </div>
+          <div class="step">
+            <div class="step-num">4</div>
+            <strong>Unlock Fakemon</strong>
+            <small>Open Monboxes, collect Fakemon, and compete with friends on the leaderboard.</small>
+          </div>
+        </div>
+
+        <div class="cta-block" id="cta">
+          <div>
+            <strong>Ready to focus smarter?</strong>
+            <p>Open the app, start a session, and watch your productivity turn into progress.</p>
+          </div>
+          <div class="actions">
+            <a class="btn primary" href="https://github.com/worldreboot/productivity-mon/releases" target="_blank">Get
+              the App</a>
+            <a class="btn ghost"
+              href="mailto:?subject=Productivity%20Mon&body=Thought%20you%27d%20like%20this%20productivity%20tracker.">Share
+              with a teammate</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2>Productivity outcomes you can expect</h2>
+        <div class="grid">
+          <div class="card">
+            <strong>Ship faster</strong>
+            <small>See time spent in real work apps so you prioritize the tasks that move the needle.</small>
+          </div>
+          <div class="card">
+            <strong>Stay accountable</strong>
+            <small>Daily leaderboards and status updates keep friends and teammates aligned.</small>
+          </div>
+          <div class="card">
+            <strong>Protect deep work</strong>
+            <small>Distraction filtering and quick pause controls help you keep context.</small>
+          </div>
+          <div class="card">
+            <strong>Feel rewarded</strong>
+            <small>XP, coins, and Fakemon make focus sessions feel fun instead of draining.</small>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      Built with love to keep you focused. Open the app, start a session, and let Productivity Mon handle the rest.
+    </footer>
+  </div>
+</body>
+
+</html>
